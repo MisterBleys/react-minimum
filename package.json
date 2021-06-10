@@ -1,19 +1,23 @@
 {
-  "name": "react-minimum",
-  "version": "1.0.0",
-  "description": "Minimal React App",
-  "main": "index.js",
+  "name": "my-app",
+  "version": "0.1.0",
+  "description": "",
   "scripts": {
-    "test": "test"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MisterBleys/react-minimum.git"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MisterBleys/react-minimum/issues"
+  "devDependencies": {
+    "babel-preset-nano-react-app": "^0.1.0",
+    "parcel": "^2.0.0-alpha.3.2"
   },
-  "homepage": "https://github.com/MisterBleys/react-minimum#readme"
+  "babel": {
+    "presets": [
+      "nano-react-app"
+    ]
+  }
 }
