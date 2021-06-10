@@ -1,0 +1,19 @@
+{
+  "name": "react-minimum",
+  "version": "1.0.0",
+  "description": "Minimal React App",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MisterBleys/react-minimum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MisterBleys/react-minimum/issues"
+  },
+  "homepage": "https://github.com/MisterBleys/react-minimum#readme"
+}
